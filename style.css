@@ -20,9 +20,9 @@ body {
 }
 /* Header styles */
 header {
-    background-color: #000; /* Black background color */
-    color: #c48c24; /* Gold text color */
-    padding: 20px 0; /* Add padding to top and bottom */
+    background-color: #000; 
+    color: #c48c24;
+    padding: 20px 0; 
 }
 
 .container {
@@ -50,37 +50,37 @@ nav ul li {
 }
 
 nav ul li:last-child {
-    margin-right: 0; /* Remove margin from last item */
+    margin-right: 0; 
 }
 
 nav a {
-    color: #c48c24; /* Gold color */
+    color: #c48c24; 
     text-decoration: none;
     font-size: 16px;
-    transition: color 0.3s ease; /* Smooth color transition on hover */
+    transition: color 0.3s ease; 
 }
 
 nav a:hover {
-    color: #fff; /* White color on hover */
+    color: #fff;
 }
 
 .search input[type="text"] {
     padding: 8px;
-    border: 1px solid #c48c24; /* Gold border color */
+    border: 1px solid #c48c24; 
     border-radius: 5px;
 }
 
 .cta .btn {
     padding: 10px 20px;
-    background-color: #c48c24; /* Gold button background color */
-    color: #000; /* Black button text color */
+    background-color: #c48c24; 
+    color: #000; 
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease; /* Smooth color transition on hover */
+    transition: background-color 0.3s ease; 
 }
 
 .cta .btn:hover {
-    background-color: #8b5c0f; /* Darken button color on hover */
+    background-color: #8b5c0f; 
 }
 
 
@@ -113,8 +113,8 @@ nav a:hover {
 .text h1 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #cca64c; /* Dark gold */
-    text-shadow: 2px 2px 2px #000; /* Gold shadow */
+    color: #cca64c; 
+    text-shadow: 2px 2px 2px #000; 
 }
 
 .text p {
@@ -132,7 +132,7 @@ nav a:hover {
 
 .flex button {
     padding: 15px 30px;
-    background-color: #1f1c1b; /* Dark gold */
+    background-color: #1f1c1b;
     color: #cca64c;
     border: none;
     border-radius: 5px;
@@ -141,7 +141,7 @@ nav a:hover {
 }
 
 .flex button:hover {
-    background-color: #51402e; /* Darker gold on hover */
+    background-color: #51402e; 
 }
 
 /* Booking form styles */
@@ -150,16 +150,16 @@ nav a:hover {
     top: 40%;
     left: 5%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 20px;
     border-radius: 10px;
-    width: 300px; /* Adjust the width as needed */
+    width: 300px; 
     box-sizing: border-box;
     height: fit-content;
 }
 
 .form {
-    color: #fff; /* Text color for the form */
+    color: #fff; 
 }
 
 .form input[type="date"],
@@ -171,32 +171,31 @@ nav a:hover {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 0.2); /* Transparent background for inputs */
-    color: #fff; /* Text color for inputs */
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: #fff; 
 }
 
 .form input[type="submit"] {
-    background-color: #c48c24; /* Button background color */
-    color: #fff; /* Button text color */
+    background-color: #c48c24; 
+    color: #fff; 
     cursor: pointer;
 }
-
 .form input[type="submit"]:hover {
-    background-color: #c58610; /* Button background color on hover */
+    background-color: #c58610; 
 }
 .image-container {
     position: absolute;
     top: 30%;
-    right: 5%; /* Adjust the positioning as needed */
+    right: 5%; 
     transform: translateY(-50%);
     display: flex;
-    flex-wrap: wrap; /* Allow images to wrap to the next line */
-    gap: 10px; /* Add some spacing between images */
+    flex-wrap: wrap; 
+    gap: 10px; 
 }
 
 .image {
-    width: 1in; /* Set the width of each image */
-    height: 1in; /* Set the height of each image */
-    object-fit: cover; /* Ensure images maintain aspect ratio */
-    border-radius: 10px; /* Apply rounded corners */
+    width: 1in; 
+    height: 1in; 
+    object-fit: cover; 
+    border-radius: 10px; 
 }
