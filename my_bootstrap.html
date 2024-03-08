@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tagoloan Hotel</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="hoteljs.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="official_logo.png" alt="Tagoloan Hotel">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                </ul>
+            </nav>
+            <div class="search">               
+                <input type="text" placeholder="Search...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+            <div class="cta">
+                <a href="booking.html" class="btn">Book Now</a>
+            </div>
+        </div>
+    </header>
+     
+    <section class="home">
+        <div class="item">
+            <img src="logo3.jpg" alt="Tagoloan Hotel">
+            <div class="text">
+                <h1>SPEND YOUR NIGHT WITH TH</h1>
+                <p>Sleepy no more, grab yourself and just chill.</p>
+                <div class="flex">
+                    <button class="first-btn">READ MORE</button>                    
+                    <button class="second-btn">CONTACT US</button>                    
+                </div>
+            </div>
+        </div>
+        <div class="form-container">
+            <div class="text">
+                <h1> BOOK NOW </h1>
+            </div>
+            <div class="form">
+                <form class="booking">
+                    <label for="arrival_date">Arrival Date:</label>
+                    <input type="date" id="arrival_date" name="arrival_date" placeholder="Arrival date">
+
+                    <label for="departure_date">Departure Date:</label>
+                    <input type="date" id="departure_date" name="departure_date" placeholder="Departure date">
+
+                    <label for="adults">Adults:</label>
+                    <input type="number" id="adults" name="adults" placeholder="Adults">
+
+                    <label for="children">Children:</label>
+                    <input type="number" id="children" name="children" placeholder="Children">
+
+                    <input type="submit" value="CHECK AVAILABILITY">
+                </form>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="room1.jpg" alt="Image 1" class="image">
+            <img src="room2.jpg" alt="Image 2" class="image">
+            <img src="room3.jpg" alt="Image 3" class="image">
+            <img src="room4.jpg" alt="Image 4" class="image">
+        </div>
+    </section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

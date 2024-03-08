@@ -1,0 +1,202 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* Header styles */
+header {
+    background-color: #000; /* Black background color */
+    color: #c48c24; /* Gold text color */
+    padding: 20px 0; /* Add padding to top and bottom */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px; /* Adjust logo height */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from last item */
+}
+
+nav a {
+    color: #c48c24; /* Gold color */
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: #fff; /* White color on hover */
+}
+
+.search input[type="text"] {
+    padding: 8px;
+    border: 1px solid #c48c24; /* Gold border color */
+    border-radius: 5px;
+}
+
+.cta .btn {
+    padding: 10px 20px;
+    background-color: #c48c24; /* Gold button background color */
+    color: #000; /* Black button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.cta .btn:hover {
+    background-color: #8b5c0f; /* Darken button color on hover */
+}
+
+
+/* Home section styles */
+.home {
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background-image: url('cover2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #cca64c; /* Dark gold */
+    text-shadow: 2px 2px 2px #000; /* Gold shadow */
+}
+
+.text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #433c3c;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.flex button {
+    padding: 15px 30px;
+    background-color: #1f1c1b; /* Dark gold */
+    color: #cca64c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.flex button:hover {
+    background-color: #51402e; /* Darker gold on hover */
+}
+
+/* Booking form styles */
+.form-container {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; /* Adjust the width as needed */
+    box-sizing: border-box;
+    height: fit-content;
+}
+
+.form {
+    color: #fff; /* Text color for the form */
+}
+
+.form input[type="date"],
+.form input[type="number"],
+.form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.2); /* Transparent background for inputs */
+    color: #fff; /* Text color for inputs */
+}
+
+.form input[type="submit"] {
+    background-color: #c48c24; /* Button background color */
+    color: #fff; /* Button text color */
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #c58610; /* Button background color on hover */
+}
+.image-container {
+    position: absolute;
+    top: 30%;
+    right: 5%; /* Adjust the positioning as needed */
+    transform: translateY(-50%);
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+    gap: 10px; /* Add some spacing between images */
+}
+
+.image {
+    width: 1in; /* Set the width of each image */
+    height: 1in; /* Set the height of each image */
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+    border-radius: 10px; /* Apply rounded corners */
+}
